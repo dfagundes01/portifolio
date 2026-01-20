@@ -54,6 +54,14 @@ function Header({ theme, themeToggler }) {
           <li className="h-3 leading-normal">
             <a
               className="cursor-pointer text-2xl text-purple-400 no-underline hover:text-sky-300 hover:duration-1000"
+              href="#serviços"
+            >
+              Serviços
+            </a>
+          </li>
+          <li className="h-3 leading-normal">
+            <a
+              className="cursor-pointer text-2xl text-purple-400 no-underline hover:text-sky-300 hover:duration-1000"
               href="#projetos"
             >
               Projetos

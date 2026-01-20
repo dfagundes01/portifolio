@@ -6,6 +6,7 @@ import AboutMe from './sections/AboutMe'
 import Home from './sections/Home'
 import Project from './sections/Projects'
 import Skills from './sections/Skills'
+import Services from './sections/Services'
 import { useTheme } from '@/context/ThemeContext'
 import { ThemeProvider } from 'styled-components'
 
@@ -18,6 +19,7 @@ function PortfolioLayout() {
         <Header theme={theme} themeToggler={themeToggler} />
         <Home />
         <AboutMe />
+        <Services />
         <Project />
         <Skills />
         <Footer />
